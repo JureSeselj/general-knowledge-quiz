@@ -1,27 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rubik+Moonrocks&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-html {
+:root {
+    background: url(../images/home-image-map.jpg);
     font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    scroll-behavior: smooth; 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 6rem;
     overflow-x: hidden;
 }
 
-body, h1 {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #FFB85D;
     font-family: 'Rubik Moonrocks', sans-serif;
     text-transform: uppercase;
+    font-size: 6.8rem;
+    margin-bottom: 5rem;
+}
+
+h1 > span {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+h2 {
     font-size: 4.8rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/*--BUTTONS--*/
+
+.btn {
+    font-size: 1.8rem;
+    padding: 1.2rem 0;
+    width: 20rem;
     text-align: center;
+    border: 0.1rem solid #324050;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: #324050;
+    background-color: #FFB85D;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.6rem 1.6rem 0 rgb(255, 184, 93, 0.5);
+    transform: translateY(-0.2rem);
+    transition: transform 150ms;
+}
+
+#play {
+    font-family: 'Mukta', sans-serif;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 80%;
+    font-size: 2.4rem;
+    border: 0.1rem solid #324050;
+    border-radius: 0.8rem;
+    color: #324050;
+    background-color: #FFB85D;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.6rem 1.6rem 0 rgb(255, 184, 93, 0.5);
+    transform: translateY(-0.2rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #324050;
+    color: #FFB85D;
+}
+
+.choice-text {
+    padding: 1.5rem;
 }
