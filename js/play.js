@@ -19,7 +19,7 @@ let questions = [
     answer: 1
   },
   {
-    question:"What is the correct syntax for referring to an external script called 'xxx.js'?",
+    question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
     choice1: "<script href='xxx.js'>",
     choice2: "<script name='xxx.js'>",
     choice3: "<script src='xxx.js'>",
@@ -51,7 +51,7 @@ getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
     //go to the end page
-    return window.location.assign("/finish.html");
+    return window.location.assign("/end.html");
   }
   questionCounter++;
   progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
