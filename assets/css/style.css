@@ -68,6 +68,18 @@ h3 {
     align-items: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
 /*--BUTTONS--*/
 
 .btn {
@@ -87,6 +99,12 @@ h3 {
     box-shadow: 0 0.6rem 1.6rem 0 rgb(255, 184, 93, 0.5);
     transform: translateY(-0.2rem);
     transition: transform 150ms;
+}
+
+.btn[disabbled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }
 
 #play {
