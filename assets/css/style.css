@@ -56,6 +56,7 @@ h3 {
     align-items: start;
     max-width: 80rem;
     margin: 0 auto;
+    padding: 2rem;
 }
 
 .flex-column {
@@ -107,6 +108,8 @@ h3 {
     transform: none;
 }
 
+/*--PLAY HTML PAGE--*/
+
 #play {
     font-family: 'Mukta', sans-serif;
 }
@@ -137,4 +140,42 @@ h3 {
 
 .choice-text {
     padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #28a745;
+}
+  
+.incorrect {
+    background-color: #dc3545;
+}
+
+/* HUD */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+  
+.hud-main-text {
+    text-align: center;
+}
+  
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #FFB85D;
+    margin-top: 1.5rem;
+}
+  
+#progressBarFull {
+    height: 3.4rem;
+    background-color: #FFB85D;
+    width: 0%;
 }
