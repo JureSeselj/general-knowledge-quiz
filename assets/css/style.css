@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rubik+Moonrocks&display=swap');
 
 :root {
-    background: url(../images/home-image-map.jpg);
+    background: url(../images/home-image-globe.jpg);
     font-size: 62.5%;
     scroll-behavior: smooth; 
     background-size: cover;
@@ -28,7 +28,7 @@ h1 {
     color: #FFB85D;
     font-family: 'Rubik Moonrocks', sans-serif;
     text-transform: uppercase;
-    font-size: 6.8rem;
+    font-size: 4.8rem;
     margin-bottom: 5rem;
 }
 
@@ -88,11 +88,11 @@ h3 {
     padding: 1.2rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #324050;
+    border: 0.1rem solid #FFB85D;
     margin-bottom: 2rem;
     text-decoration: none;
-    color: #324050;
-    background-color: #FFB85D;
+    color: #FFB85D;
+    background-color: transparent;
 }
 
 .btn:hover {
@@ -114,15 +114,19 @@ h3 {
     font-family: 'Mukta', sans-serif;
 }
 
+#question {
+    color: white;
+}
+
 .choice-container {
     display: flex;
     margin-bottom: 1rem;
     width: 80%;
     font-size: 2.4rem;
-    border: 0.1rem solid #324050;
+    border: 0.1rem solid #FFB85D;
     border-radius: 0.8rem;
-    color: #324050;
-    background-color: #FFB85D;
+    color: #FFB85D;
+    background-color: transparent;
 }
 
 .choice-container:hover {
@@ -130,6 +134,7 @@ h3 {
     box-shadow: 0 0.6rem 1.6rem 0 rgb(255, 184, 93, 0.5);
     transform: translateY(-0.2rem);
     transition: transform 150ms;
+    border-radius: 0.8rem;
 }
 
 .choice-prefix {
@@ -160,7 +165,7 @@ h3 {
   
 .hud-prefix {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
   
 .hud-main-text {
