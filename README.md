@@ -1,33 +1,33 @@
 # Geo Challenge Quiz
 
-# Features
+## Features
 
-## Existing Features
+### Existing Features
 
-### Header
+#### Header
 
-### The Game Options
+#### The Game Options
 
-### The Game Results
+#### The Game Results
 
-### The Footer
+#### The Footer
 
 ## Features to be Implemented
 
 # Testing
 
-# Bugs
+## Bugs
 
-# Validator Testing
+## Validator Testing
 
-# Unfixed Bugs
+## Unfixed Bugs
 
-# Deployment
+## Deployment
 
-## Local Deployment
+### Local Deployment
 
-# Credits
+## Credits
 
-## Content
+### Content
 
-## Media
+### Media
