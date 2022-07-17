@@ -1,4 +1,4 @@
-# Geo Challenge Quiz
+# General Knowledge Quiz
 
 ## Features
 
