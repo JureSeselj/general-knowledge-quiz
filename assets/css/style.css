@@ -84,7 +84,7 @@ h3 {
 /*  BUTTONS  */
 
 .btn {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     padding: 1.2rem 0;
     width: 24rem;
     text-align: center;
@@ -94,11 +94,12 @@ h3 {
     text-decoration: none;
     color: #FFB85D;
     background-color: transparent;
+    font-family: 'Mukta', serif;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.6rem 1.6rem 0 rgb(255, 184, 93, 0.5);
+    box-shadow: 0 0.8rem 1.8rem 0 rgb(255, 184, 93, 0.6);
     transform: translateY(-0.2rem);
     transition: transform 150ms;
 }
@@ -132,7 +133,7 @@ h3 {
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.6rem 1.6rem 0 rgb(255, 184, 93, 0.8);
+    box-shadow: 0 0.8rem 1.8rem 0 rgb(255, 184, 93, 0.6);
     transform: translateY(-0.2rem);
     transition: transform 150ms;
     border-radius: 0.8rem;
@@ -215,6 +216,7 @@ input::placeholder {
     list-style: none;
     padding-left: 0;
     margin-bottom: 4rem;
+    color: #FFB85D;
   }
   
   .high-score {
