@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rubik+Moonrocks&display=swap');
 
 :root {
-    background: url(../images/home-image-globe.jpg);
+    background: url(../images/banner-image.jpg);
     font-size: 62.5%;
     scroll-behavior: smooth; 
     background-size: cover;
@@ -86,9 +86,10 @@ h3 {
 .btn {
     font-size: 1.8rem;
     padding: 1.2rem 0;
-    width: 20rem;
+    width: 24rem;
     text-align: center;
     border: 0.1rem solid #FFB85D;
+    border-radius: 0.8rem;
     margin-bottom: 2rem;
     text-decoration: none;
     color: #FFB85D;
