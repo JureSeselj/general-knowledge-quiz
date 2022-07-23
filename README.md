@@ -1,4 +1,4 @@
-# General Knowledge Quiz
+# Geography Quiz
 
 ## Features
 
