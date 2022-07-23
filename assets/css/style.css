@@ -233,9 +233,8 @@ input::placeholder {
 /* HIGH SCORES HTML PAGE */
 
 #highScoresList {
-    list-style: none;
     padding-left: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
     color: #FFB85D;
   }
   
